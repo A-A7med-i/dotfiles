@@ -1,0 +1,82 @@
+[colors.primary]
+background = "#282A36"     # Darcula background
+foreground = "#F8F8F2"     # Light grey for good readability
+dim_foreground = "#6272A4" # A muted blue-grey for less important text
+
+
+[colors.cursor]
+text = "CellBackground"
+cursor = "#FF79C6"      # A vibrant pink for the cursor
+
+
+[colors.vi_mode_cursor]
+text = "CellBackground"
+cursor = "#BD93F9"      # A soft purple for the Vi mode cursor
+
+
+[colors.search.matches]
+foreground = "#282A36"
+background = "#50FA7B" # Bright green for search matches
+
+
+[colors.search.focused_match]
+foreground = "#282A36"
+background = "#FFB86C" # Orange for the focused search match
+
+
+[colors.hints.start]
+foreground = "#282A36"
+background = "#8BE9FD" # Cyan for the first hint character
+
+
+[colors.hints.end]
+foreground = "#282A36"
+background = "#FF5555" # Red for the subsequent hint characters
+
+
+[colors.line_indicator]
+foreground = "None"
+background = "None"
+
+
+[colors.footer_bar]
+foreground = "#F8F8F2"
+background = "#44475A" # Slightly lighter than the main background
+
+
+[colors.selection]
+text = "CellBackground"
+background = "#44475A"  # Similar to footer for a subtle selection
+
+
+[colors.normal]
+black = "#21222C"
+red = "#FF5555"
+green = "#50FA7B"
+yellow = "#F1FA8C"
+blue = "#6272A4"
+magenta = "#FF79C6"
+cyan = "#8BE9FD"
+white = "#F8F8F2"
+
+
+[colors.bright]
+black = "#44475A"
+red = "#FF6E6E"
+green = "#69FF94"
+yellow = "#FFFACD"
+blue = "#D6ACFF"
+magenta = "#FF92DF"
+cyan = "#A4FFFF"
+white = "#FFFFFF"
+
+
+[colors.dim]
+black = "#181A21"
+red = "#B84747"
+green = "#3D8A57"
+yellow = "#A89969"
+blue = "#4A5B7B"
+magenta = "#B35E8D"
+cyan = "#68B1D8"
+white = "#D3D3D3"

@@ -1,0 +1,44 @@
+[keyboard]
+bindings = [
+  # --- Window Management ---
+  { key = "N", mods = "Control|Shift", action = "CreateNewWindow" },  # Ctrl+Shift+N: New window
+  { key = "W", mods = "Control|Shift", action = "Quit" },             # Ctrl+Shift+W: Close window
+  { key = "T", mods = "Control|Shift", action = "CreateNewTab" },     # Ctrl+Shift+T: New tab
+  { key = "PageUp", mods = "Control", action = "SelectPreviousTab" }, # Ctrl+PageUp: Select previous tab
+  { key = "PageDown", mods = "Control", action = "SelectNextTab" },   # Ctrl+PageDown: Select next tab
+
+  # --- Font Management ---
+  { key = "+", mods = "Control", action = "IncreaseFontSize" }, # Ctrl++: Increase font size
+  { key = "-", mods = "Control", action = "DecreaseFontSize" }, # Ctrl+--: Decrease font size
+  { key = "0", mods = "Control", action = "ResetFontSize" },    # Ctrl+0: Reset font size
+
+  # --- Clipboard ---
+  { key = "C", mods = "Control|Shift", action = "Copy" },   # Ctrl+Shift+C: Copy
+  { key = "V", mods = "Control|Shift", action = "Paste" },  # Ctrl+Shift+V: Paste
+  { key = "V", mods = "Shift", action = "PasteSelection" }, # Shift+V: Paste from selection buffer
+
+  # --- Scrolling ---
+  { key = "PageUp", mods = "Shift", action = "ScrollPageUp" },     # Shift+PageUp: Scroll page up
+  { key = "PageDown", mods = "Shift", action = "ScrollPageDown" }, # Shift+PageDown: Scroll page down
+  { key = "Up", mods = "Shift", action = "ScrollLineUp" },         # Shift+Up: Scroll line up
+  { key = "Down", mods = "Shift", action = "ScrollLineDown" },     # Shift+Down: Scroll line down
+  { key = "Home", mods = "Control", action = "ScrollToTop" },      # Ctrl+Home: Scroll to top
+  { key = "End", mods = "Control", action = "ScrollToBottom" },    # Ctrl+End: Scroll to bottom
+
+  # --- Search ---
+  { key = "F", mods = "Control", action = "SearchForward" },        # Ctrl+F: Search forward
+  { key = "G", mods = "Control", action = "SearchNext" },           # Ctrl+G: Search next
+  { key = "G", mods = "Control|Shift", action = "SearchPrevious" }, # Ctrl+Shift+G: Search previous
+
+  # --- Vi Mode ---
+  { key = "Space", mods = "Control|Shift", action = "ToggleViMode" }, # Ctrl+Shift+Space: Toggle Vi mode
+  { key = "J", mods = "Control", mode = "Vi", action = "Down" },      # Ctrl+J in Vi mode: Move down
+  { key = "K", mods = "Control", mode = "Vi", action = "Up" },        # Ctrl+K in Vi mode: Move up
+  { key = "H", mods = "Control", mode = "Vi", action = "Left" },      # Ctrl+H in Vi mode: Move left
+  { key = "L", mods = "Control", mode = "Vi", action = "Right" },     # Ctrl+L in Vi mode: Move right
+
+  # --- Other ---
+  { key = "Escape", action = "ClearSelection" },    # Esc: Clear selection
+  { key = "Escape", action = "ClearLogNotice" },    # Esc: Clear log notice
+  { key = "Q", mods = "Control", action = "Quit" }, # Ctrl+Q: Quit
+]
