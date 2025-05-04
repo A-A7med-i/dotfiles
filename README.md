@@ -1,4 +1,4 @@
-# Dotfiles
+# <p align="center">Dotfiles</p>
 
 ![Project Overview](images/full.png)
 
@@ -40,7 +40,7 @@ This repository contains configuration files, scripts, and resources for customi
 1. Clone the repository:
 
    ```bash
-      git clone <repository-url>
+      git clone https://github.com/A-A7med-i/dotfiles.git
    ```
 
 2. Explore the configuration files and scripts to customize your environment.
