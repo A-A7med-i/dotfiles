@@ -1,0 +1,198 @@
+/*
+* Dracula Modern Theme for Rofi
+* Based on the Dracula color palette by Zeno Rocha
+* https://draculatheme.com/
+*/
+
+configuration {
+  show-icons: true;
+  display-drun: "";
+  disable-history: false;
+}
+
+* {
+  /* Dracula colors */
+  background: #282a36;
+  background-alt: #44475a;
+  foreground: #f8f8f2;
+  selected: #6272a4;
+  active: #50fa7b;
+  urgent: #ff5555;
+
+  /* Additional Dracula colors */
+  purple: #bd93f9;
+  pink: #ff79c6;
+  yellow: #f1fa8c;
+  cyan: #8be9fd;
+  orange: #ffb86c;
+  red: #ff5555;
+  green: #50fa7b;
+
+  /* Theme settings */
+  highlight: bold italic;
+  transparent: rgba(40, 42, 54, 0);
+
+  font: "JetBrains Mono 12";
+  border-color: @purple ;
+  separatorcolor: @pink ;
+}
+
+window {
+  transparency: "real";
+  background-color: @background ;
+  text-color: @foreground ;
+  border: 2px;
+  border-color: @purple ;
+  border-radius: 12px;
+  width: 40%;
+  height: 50%;
+  location: center;
+  x-offset: 0;
+  y-offset: 0;
+  padding: 20px;
+}
+
+prompt {
+  enabled: true;
+  padding: 10px;
+  background-color: @background ;
+  text-color: @pink ;
+  font: "JetBrains Mono Nerd Font 12";
+}
+
+entry {
+  background-color: @background ;
+  text-color: @foreground ;
+  placeholder-color: @background-alt ;
+  expand: true;
+  horizontal-align: 0;
+  placeholder: "Search...";
+  padding: 10px 0 0 0;
+  blink: true;
+}
+
+inputbar {
+  children: [ prompt, entry];
+  background-color: @background ;
+  text-color: @foreground ;
+  expand: false;
+  border: 0 0 2px 0;
+  border-color: @pink ;
+  margin: 0;
+  padding: 0;
+}
+
+listview {
+  background-color: @background ;
+  padding: 10 0 0 0;
+  columns: 1;
+  lines: 8;
+  spacing: 5px;
+  cycle: true;
+  dynamic: true;
+  layout: vertical;
+  scrollbar: true;
+}
+
+mainbox {
+  background-color: @background ;
+  border: 0;
+  border-radius: 0;
+  border-color: @purple ;
+  children: [ inputbar, listview];
+  spacing: 10px;
+  padding: 10px;
+}
+
+element {
+  background-color: @background ;
+  text-color: @foreground ;
+  orientation: horizontal;
+  border-radius: 6px;
+  padding: 8px;
+}
+
+element-icon {
+  background-color: inherit;
+  text-color: inherit;
+  size: 24px;
+  horizontal-align: 0.5;
+}
+
+element-text {
+  background-color: inherit;
+  text-color: inherit;
+  expand: true;
+  horizontal-align: 0;
+  vertical-align: 0.5;
+  margin: 0 10px 0 10px;
+}
+
+element normal.normal {
+  background-color: @background ;
+  text-color: @foreground ;
+}
+
+element normal.urgent {
+  background-color: @urgent ;
+  text-color: @foreground ;
+}
+
+element normal.active {
+  background-color: @active ;
+  text-color: @background ;
+}
+
+element selected.normal {
+  background-color: @selected ;
+  text-color: @foreground ;
+}
+
+element selected.urgent {
+  background-color: @urgent ;
+  text-color: @foreground ;
+}
+
+element selected.active {
+  background-color: @active ;
+  text-color: @background ;
+}
+
+element alternate.normal {
+  background-color: @background ;
+  text-color: @foreground ;
+}
+
+element alternate.urgent {
+  background-color: @urgent ;
+  text-color: @foreground ;
+}
+
+element alternate.active {
+  background-color: @active ;
+  text-color: @background ;
+}
+
+scrollbar {
+  width: 4px;
+  border: 0;
+  handle-color: @purple ;
+  handle-width: 8px;
+  padding: 0;
+}
+
+button {
+  text-color: @foreground ;
+  border: 0 0 2px 0;
+  border-color: @pink ;
+}
+
+button selected {
+  background-color: @selected ;
+  text-color: @foreground ;
+}
+
+/* Animation */
+animation {
+  enabled: true;
+}

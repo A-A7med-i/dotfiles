@@ -1,0 +1,21 @@
+configuration {
+  display-drun: "Applications: ";
+  display-window: "Windows: ";
+  drun-display-format: "{icon} {name}";
+  font: "JetBrainsMono Nerd Font Medium 12";
+  modi: "window,run,drun";
+  show-icons: true;
+  icon-theme: "Papirus-Dark";
+  case-sensitive: false;
+  terminal: "alacritty";
+  sidebar-mode: true;
+  auto-select: false;
+  combi-modi: "window,drun";
+  display-window: "Windows";
+  display-run: "Run";
+  display-ssh: "SSH";
+  display-drun: "Applications";
+  display-combi: "Combi";
+}
+
+@theme "theme/darcula.rasi"
