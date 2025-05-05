@@ -26,7 +26,7 @@ This repository contains configuration files, scripts, and resources for customi
 # Screenshots
 
 <details>
-  <summary>Alacritty</summary>
+  <summary>Alacritty - ZSH</summary>
   <img src="images/alacritty.png" alt="Alacritty Screenshot">
 </details>
 
