@@ -35,6 +35,11 @@ This repository contains configuration files, scripts, and resources for customi
   <img src="images/rofi.png" alt="Rofi Screenshot">
 </details>
 
+<details>
+  <summary>More Screenshots </summary>
+  <img src="images/more screenshots (1).png" alt="Ore Screenshot">
+</details>
+
 ## Usage
 
 1. Clone the repository:
