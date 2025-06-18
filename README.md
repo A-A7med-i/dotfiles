@@ -38,6 +38,7 @@ This repository contains configuration files, scripts, and resources for customi
 <details>
   <summary>More Screenshots </summary>
   <img src="images/more screenshots (1).png" alt="More Screenshot">
+  <img src="images/more screenshots (2).png" alt="More Screenshot">
 </details>
 
 ## Usage
